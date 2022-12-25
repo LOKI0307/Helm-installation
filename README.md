@@ -62,3 +62,13 @@ helm install stable mysql
 -------------------------------------------------------------------------
 Please like and share this video
 this installation document is available at below git link
+
+Bye! 
+
+Note:-
+To resolve vt-x is not available (verr_vmx_no_vmx) in ubuntu issue.
+
+sudo apt-get install cpu-checker
+sudo kvm-ok 
+reboot the vm
+
